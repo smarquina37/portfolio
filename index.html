@@ -5,42 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Susana's Portfolio</title>
+
+    <!-- Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto+Mono:wght@300;700&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <header>
       <div class="container container-flex">
-      <div class="site-title">
-        <h1>SUSANA MARQUINA</h1>
-        <!-- <p class="subtitle">Web Developer</p> -->
-      </div>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-list-item"><a class="link current-page" href="index.html">Home</a></li>
-          <li class="nav-list-item"><a class="link" href="#">About</a></li>
-          <li class="nav-list-item"><a class="link" href="#">Projects</a></li>
-          <li class="nav-list-item"><a class="link" href="#">Contact</a></li>
-        </ul>
-      </nav>
+        <div class="site-title">
+          <span class="navbar-brand">SUSANA MARQUINA</span>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-link current-page" href="#home">Home</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-link" href="#work">My Work</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
 
-    <div class="container">
-        <main>
-          <section class="hero">
+    <!-- Home -->
 
-          </section>
-      </main>
+    <section class="intro" id="home">
+      <div class="inner-intro">
+        <h1 class="section-title section-title-intro">
+          Hi, I am <strong>Susana Marquina</strong>
+        </h1>
+        <p class="section-subtitle section-subtitle-intro typed-out">
+          Front-End Developer
+        </p>
+        <!-- <img src="susana.jpg" alt="photo of Susana" class="intro-img" /> -->
       </div>
+      </section>
+
+    <!--About Me-->
+    <section class="about" id="about">
+      <h2 class="section-title section-title-about-me">About me</h2>
+      <img src="aboutphoto.jpg" alt="susana" class="about-img" />
+      <p class="section-subtitle section-subtitle-about">
+        Developer based out of Los Angeles
+      </p>
+
+      <div class="about-body">
+        <p>
+          I am a recent Front-End Web and Mobile Development graduate with a
+          background in education. I am a passionate developer who loves
+          learning, coding, and creating beautiful and functional projects. I
+          develop websites using HTML, CSS, JavaScript.
+        </p>
+      </div>
+    </section>
+
+    <!--Work-->
+
+    <section class="work" id="work">
+      <h2 class="section-title section-title-work">My work</h2>
+      <p class="section-subtitle section-subtitle-work">A Selection of Projects I've Built</p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 1 -->
+        <a href="#" class="portfolio-item">
+          <img src="susana.jpg" alt="" class="portfolio-img" />
+        </a>
+
+        <!-- Portfolio item 2 -->
+        <a href="#" class="portfolio-item">
+          <img src="susana.jpg" alt="" class="portfolio-img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Services
+    <section class="services" id="services">
+      <h2 class="section-title section-title-services">My recent projects</h2>
+      <div class="services">
+        <div class="service">
+          <h4></h4>
+          <p></p>
+        </div>
+
+        <div class="service">
+          <h3></h3>
+          <p></p>
+        </div>
+
+        <div class="service">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    </section> -->
 
     <footer>
-      <p><strong>SUSANA MARQUINA</strong></p>
-      <p>Copyright 2022</p>
+      <a href="mailto:@smarq86@gmail.com" class="footer-link"
+        >smarq86@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list-item">
+          <a
+            class="social-list-link"
+            href="https://www.linkedin.com/in/smarquina/"
+            >LinkedIn</a
+          >
+        </li>
+        <li class="social-list-item">
+          <a class="social-list-link" href="https://github.com/smarquina37"
+            >GitHub</a
+          >
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
