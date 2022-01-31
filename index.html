@@ -8,9 +8,14 @@
 
     <!-- Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto+Mono:wght@300;700&family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto+Slab:wght@400;700&family=Titillium+Web:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+    <script
+      src="https://kit.fontawesome.com/8b7cb0e92d.js"
+      crossorigin="anonymous"
+    ></script>
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
@@ -39,55 +44,65 @@
     </header>
 
     <!-- Home -->
-
-    <section class="intro" id="home">
-      <div class="inner-intro">
-        <h1 class="section-title section-title-intro">
-          Hi, I am <strong>Susana Marquina</strong>
-        </h1>
-        <p class="section-subtitle section-subtitle-intro typed-out">
-          Front-End Developer
-        </p>
-        <!-- <img src="susana.jpg" alt="photo of Susana" class="intro-img" /> -->
-      </div>
+      <section class="intro" id="home">
+        <div class="inner-intro">
+          <h1 class="section-title section-title-intro">
+            Hi, I am <strong>Susana Marquina</strong>
+          </h1>
+          <p class="section-subtitle section-subtitle-intro typed-out">
+            Front-End Developer
+          </p>
+          <!-- <img src="susana.jpg" alt="photo of Susana" class="intro-img" /> -->
+        </div>
       </section>
 
     <!--About Me-->
-    <section class="about" id="about">
-      <h2 class="section-title section-title-about-me">About me</h2>
-      <img src="aboutphoto.jpg" alt="susana" class="about-img" />
-      <p class="section-subtitle section-subtitle-about">
-        Developer based out of Los Angeles
-      </p>
-
-      <div class="about-body">
-        <p>
-          I am a recent Front-End Web and Mobile Development graduate with a
-          background in education. I am a passionate developer who loves
-          learning, coding, and creating beautiful and functional projects. I
-          develop websites using HTML, CSS, JavaScript.
+      <section class="about" id="about">
+        <h2 class="section-title section-title-about-me">About me</h2>
+        <img src="aboutphoto.jpg" alt="susana" class="about-img" />
+        <p class="section-subtitle section-subtitle-about">
+          Developer based out of Los Angeles
         </p>
-      </div>
-    </section>
+
+        <div class="about-body">
+          <p>
+            I am a recent Front-End Web and Mobile Development graduate with a
+            background in education. I am a passionate developer who loves
+            learning, coding, and creating beautiful and functional projects. I
+            develop websites using HTML, CSS, JavaScript.
+          </p>
+        </div>
+      </section>
 
     <!--Work-->
+      <section class="work" id="work">
+        <h2 class="section-title section-title-work">My work</h2>
+        <p class="section-subtitle section-subtitle-work">
+          A Selection of Projects I've Built
+        </p>
 
-    <section class="work" id="work">
-      <h2 class="section-title section-title-work">My work</h2>
-      <p class="section-subtitle section-subtitle-work">A Selection of Projects I've Built</p>
+        <div class="portfolio">
+          <!-- Portfolio item 1 -->
+          <a href="#" class="portfolio-item">
+            <img src="susana.jpg" alt="" class="portfolio-img" />
+          </a>
 
-      <div class="portfolio">
-        <!-- Portfolio item 1 -->
-        <a href="#" class="portfolio-item">
-          <img src="susana.jpg" alt="" class="portfolio-img" />
-        </a>
+          <!-- Portfolio item 2 -->
+          <a href="#" class="portfolio-item">
+            <img src="susana.jpg" alt="" class="portfolio-img" />
+          </a>
 
-        <!-- Portfolio item 2 -->
-        <a href="#" class="portfolio-item">
-          <img src="susana.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-    </section>
+          <!-- Portfolio item 2 -->
+          <a href="#" class="portfolio-item">
+            <img src="susana.jpg" alt="" class="portfolio-img" />
+          </a>
+
+          <!-- Portfolio item 2 -->
+          <a href="#" class="portfolio-item">
+            <img src="susana.jpg" alt="" class="portfolio-img" />
+          </a>
+        </div>
+      </section>
 
     <!-- Services
     <section class="services" id="services">
@@ -110,22 +125,28 @@
       </div>
     </section> -->
 
-    <footer>
+    <footer class="footer" id="contact">
       <a href="mailto:@smarq86@gmail.com" class="footer-link"
-        >smarq86@gmail.com</a
+        >Susana Marquina</a
       >
+      <p class="footer-copyright">&copy; 2022</p>
+
       <ul class="social-list">
         <li class="social-list-item">
           <a
             class="social-list-link"
+            target="_blank"
             href="https://www.linkedin.com/in/smarquina/"
-            >LinkedIn</a
-          >
+            ><i class="fab fa-linkedin"></i
+          ></a>
         </li>
         <li class="social-list-item">
-          <a class="social-list-link" href="https://github.com/smarquina37"
-            >GitHub</a
-          >
+          <a
+            class="social-list-link"
+            target="_blank"
+            href="https://github.com/smarquina37"
+            ><i class="fab fa-github-square"></i
+          ></a>
         </li>
       </ul>
     </footer>
