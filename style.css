@@ -148,7 +148,7 @@ h4 {
 
 header {
   background: var(--clr-highlight);
-  padding: 2em 0;
+  padding: 1em 0;
   text-align: center;
 }
 
@@ -238,6 +238,8 @@ nav a:hover,
   max-width: 100%;
 }
 
+
+
 @media (min-width: 675px) {
   .about {
   }
@@ -248,6 +250,10 @@ nav a:hover,
 
   .about-img {
     position: relative;
+  }
+
+  .about-body {
+    max-width: 800px;
   }
 }
 
