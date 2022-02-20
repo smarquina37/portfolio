@@ -150,6 +150,9 @@ header {
   background: var(--clr-highlight);
   padding: 1em 0;
   text-align: center;
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
 }
 
 @media (min-width: 675px) {
@@ -205,18 +208,10 @@ nav a:hover,
 
 /* Intro section */
 .intro {
-  /* sizing */
-
-  /* flexbox */
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* text styles */
   text-align: center;
-
-  /* background */
-  /* padding: 100px; */
   background-image: url(palmtrees.jpg);
   /* background: var(--clr-accent); */
   background-position: center;
@@ -234,26 +229,28 @@ nav a:hover,
 
 .about-img {
   box-shadow: var(--bs);
-  display: inline-block;
   max-width: 100%;
 }
 
-
-
 @media (min-width: 675px) {
   .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 0;
   }
 
   .section-subtitle-about {
     margin-bottom: 0;
   }
 
-  .about-img {
-    position: relative;
-  }
-
   .about-body {
     max-width: 800px;
+  }
+
+  .info-paragraph {
+    padding: 0 0.5em;
   }
 }
 
