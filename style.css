@@ -151,9 +151,8 @@ header {
   background: var(--clr-highlight);
   padding: 1em 0;
   text-align: center;
-  /* position: fixed;
+  position: sticky;
   top: 0;
-  width: 100%; */
 }
 
 @media (min-width: 675px) {
@@ -241,6 +240,7 @@ nav a:hover,
     align-items: center;
     margin: 0 auto;
     padding-top: 0;
+    padding-bottom: 0;
   }
 
   .section-subtitle-about {
@@ -274,6 +274,7 @@ nav a:hover,
   color: var(--clr-light);
   text-align: center;
   height: 100%;
+  padding-top: 6em;
 }
 
 .portfolio {
